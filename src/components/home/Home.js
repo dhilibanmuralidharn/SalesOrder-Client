@@ -56,7 +56,7 @@ const Home = (props) => {
             <TabPanel>
               <TableContainer>
               <Table className="table">
-                <Thead style={{marginTop:'1px'}}>
+                <Thead>
                   <Tr>
                     <Th scope="col" className='table-column-heading'>ID</Th>
                     <Th scope="col" className='table-column-heading'>Customer Name</Th>
