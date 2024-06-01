@@ -1,0 +1,12 @@
+
+.table-column-heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-left: 25px;
+}
+.button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

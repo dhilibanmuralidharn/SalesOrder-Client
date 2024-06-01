@@ -1,0 +1,71 @@
+.sale-main-container{
+    margin-top: 15px;
+}
+.list-card{
+    list-style-type: none;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+.list-item-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.quantity-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.price-container{
+    width: 100px;
+    background-color: gray;
+    padding: 3px;
+    border-radius: 3px;
+}
+label{
+    color: black;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    letter-spacing: 0.1cap;
+}
+input{
+    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 8px;
+    outline: none;  
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.input-list-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+.remaining-item{
+    width: 175px;
+    background-color: #7ff68a;
+    padding: 5px;
+    border-radius: 10px;
+    color: #105719;
+}
+hr{
+    border: 1px solid gray;
+    margin-bottom: 5px;
+}
